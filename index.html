@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PROVMA — Nature & Drone</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="theme-dark">
+  <header class="site-header">
+    <div class="brand">
+      <h1>PROVMA</h1>
+      <small>Nature & Drone</small>
+    </div>
+    <nav>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Portfolio vidéos — drone & nature</h2>
+      <p>Cliquer sur une vidéo pour compter une vue (Firestore)</p>
+    </section>
+
+    <section id="video-list" class="videos-grid">
+      <!-- vidéos chargées dynamiquement -->
+    </section>
+  </main>
+
+  <footer>
+    <small>PROVMA — version pro visuelle + Firebase (demo). Remplace firebase-config.js par ta config.</small>
+  </footer>
+
+  <script src="firebase-config.js"></script>
+  <!-- Firebase v9 modular from CDN (no build step) -->
+  <script type="module" src="js/app.mod.js"></script>
+</body>
+</html>
